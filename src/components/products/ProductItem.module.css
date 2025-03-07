@@ -1,0 +1,76 @@
+.product-item{
+    padding:15px 0px;
+    width:300px;
+    height:500px;
+    background-color: rgb(226, 226, 226);
+    border-radius:10px;
+    overflow: hidden;
+    border:1px solid rgb(57, 78, 114);
+}
+
+.product-image{
+    width:100%;
+    height:350px;
+}
+
+.product-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.product-item h3{
+    margin:auto;
+    margin-top:10px;
+    /* border:1px solid red; */
+    padding-left:10px;
+    padding-right:10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color:rgb(36, 58, 85);
+}
+
+.product-item p{
+    margin:auto;
+    margin-top:10px;
+    /* border:1px solid red; */
+    padding-left:10px;
+    padding-right:10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color:rgb(34, 34, 92)
+}
+
+.product-item h4{
+    margin:auto;
+    margin-top:10px;
+    /* border:1px solid red; */
+    padding-left:10px;
+    padding-right:10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color:rgb(62, 34, 34);
+}
+
+.view-btn{
+    display:block;
+    width:90%;
+    margin:auto;
+    margin-top:15px;
+    padding:5px 0px;
+    font-size:15px;
+    background: rgb(243, 244, 249);
+    border:1px solid rgb(40, 70, 111);
+    color:rgb(52, 51, 85);
+    border-radius:5px;
+    cursor: pointer;
+    transition:background 0.15s, color 0.15s
+}
+
+.view-btn:hover{
+    color:white;
+    background:rgb(40, 70, 111);
+}

@@ -1,0 +1,63 @@
+.error-text{
+    width:90%;
+    margin:auto;
+    margin-top:3rem;
+    text-align: center;
+    /* color:rgb(148, 43, 43); */
+}
+
+.fallback-text{
+    width:90%;
+    margin:auto;
+    margin-top:3rem;
+    text-align: center;
+    color:rgb(21, 40, 61);
+}
+
+.cart-container{
+    width:60%;
+    margin:auto;
+    margin-top:3rem;
+    margin-bottom:1rem;
+    padding:1rem;
+    box-sizing: border-box;
+    background: rgb(222, 225, 237);
+    border-radius:10px;
+}
+
+.cart-items{
+    width:100%;
+    list-style-type: none;
+}
+
+.total-cost-container{
+    width:100%;
+    margin:25px auto;
+    text-align: center;
+}
+
+.total-cost{
+    color:rgb(83, 39, 39);
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.order-btn{
+    display:block;
+    margin:auto;
+    margin-top:15px;
+    margin-bottom:15px;
+    font-size:16px;
+    background:rgb(154, 155, 173);
+    color:rgb(24, 17, 62);
+    border-radius:5px;
+    cursor: pointer;
+    border:none;
+    padding:10px 25px;
+    transition: background 0.15s, color 0.15s;
+}
+
+.order-btn:hover{
+    background:rgb(38, 51, 72);
+    color:white;
+}

@@ -1,0 +1,22 @@
+.profile-container{
+    width:40%;
+    margin:auto;
+    margin-top:5rem;
+    margin-bottom:1rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background:rgb(176, 183, 209);
+    border-radius:10px;
+    padding:10px 0px;
+}
+
+.profile-container h1{
+    color:rgb(58, 55, 92);
+}
+
+.profile-container h3{
+    margin-top:0.5rem;
+    color:rgb(49, 77, 125);
+}

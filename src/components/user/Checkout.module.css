@@ -1,0 +1,67 @@
+.checkout-container{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top:0;
+    left:0;
+    background: transparent;
+    z-index:65
+}
+
+.checkout{
+    width:50%;
+    padding:15px 8px;
+    background:white;
+    border-radius:10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkout form{
+    width:80%;
+}
+
+.confirm-btn{
+    border:none;
+    width:100%;
+    padding:7px 0;
+    margin-top:10px;
+    font-size:15px;
+    border-radius:15px;
+    background: rgb(160, 141, 185);
+    color:black;
+    transition: background 0.1s, color 0.1s;
+    cursor: pointer;
+}
+
+.confirm-btn:hover{
+    background: rgb(71, 50, 101);
+    color:rgb(228, 229, 255);
+}
+
+.confirm-btn:disabled{
+    opacity:0.7;
+    cursor: not-allowed;
+}
+
+.cancel-btn{
+    border:none;
+    width:100%;
+    padding:7px 0;
+    margin-top:10px;
+    font-size:15px;
+    border-radius:15px;
+    background: rgb(156, 114, 114);
+    color:black;
+    transition: background 0.1s, color 0.1s;
+    cursor: pointer;
+}
+
+.cancel-btn:hover{
+    background: rgb(78, 39, 39);
+    color:rgb(228, 229, 255);
+}
