@@ -81,7 +81,7 @@ const AllOrders : React.FC = () => {
             {
                 !isLoading && !isError && data.orders.length === 0 &&
                 <div className={styles['fallback-text']} > 
-                    <h3>No Products found!</h3>
+                    <h3>No Orders found!</h3>
                 </div>
             }
             {
